@@ -1,0 +1,233 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'DM Sans', sans-serif;
+}
+body {
+    position: relative;
+}
+.bg-image{
+    position: absolute;
+    top: 59px;
+    z-index: -1;
+}
+header {
+    display: block;
+    padding: 30px 119px;
+    justify-content: center;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    gap: 87px;
+    justify-content: space-between;
+}
+.nav-link ul{
+    display: flex;
+    align-items: flex-start;
+    gap: 32px;
+}
+.nav-link li {
+    list-style: none;
+    color: #3F3F3F;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    cursor: pointer;
+}
+.bttns {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.login {
+    width: auto;
+    padding: 16px;
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.03);
+}
+.login p {
+    font-family: DM Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background: linear-gradient(0deg, #0052CC -10400%, #2684FF 98.32%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    width: auto;
+}
+.signup {
+    padding: 16px 32px;
+    border-radius: 12px;
+    background: linear-gradient(0deg, #0052CC -10400%, #2684FF 98.32%);
+}
+.text-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    align-items: center;
+    justify-content: center;
+}
+.signup p {
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: auto;
+}
+.toggle_btn {
+    font-size: 18px;
+    cursor: pointer;
+    display: none;
+}
+.body {
+    display: flex;
+    flex-direction: column;
+    padding: 96px 0;
+    gap: 24px;
+    align-items: center;
+    justify-content: center;
+}
+.subtext {
+    display: flex;
+    align-items: center;
+    gap: 29px;;
+}
+
+.subtext h2 {
+    color: #3F3F3F;
+    text-align: center;
+    font-family: DM Sans;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: -2.16px;
+}
+.subtext img {
+    width: 48px;
+    height: 50px;
+}
+h1 {
+    text-align: center;
+    font-family: DM Sans;
+    font-size: 114px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: -2.88px;
+    background: linear-gradient(0deg, #0052CC -10400%, #2684FF 98.32%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.body p {
+    color: #3F3F3F;
+    text-align: center;
+    font-family: DM Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    width: 740px;
+}
+.bttns-group {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.bttn-1 {
+    padding: 16px 32px;
+    align-items: flex-start;
+    gap: 8px;
+    border-radius: 12px;
+    background: linear-gradient(0deg, #0052CC -10400%, #2684FF 98.32%);
+    color: white;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.bttn-2 {
+    display: flex;
+    padding: 16px 32px;
+    align-items: center;
+    gap: 8px;
+    border-radius: 12px;
+    background-color: #DEECFF;
+}
+.bttn-2 p {
+    background: linear-gradient(0deg, #0052CC -10400%, #2684FF 98.32%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    width: auto;
+}
+#companies {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+
+    padding: 32px 0;
+}
+#companies p {
+    color: #3F3F3F;
+    text-align: center;
+    font-family: DM Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.play-bttn {
+    font-size: 18px;
+    background: linear-gradient(0deg, #0052CC -10400%, #2684FF 98.32%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.logos {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+}
+.effect {
+    opacity: 0.5;
+}
+.effect:hover {
+    opacity: 1;
+}
+@media (max-width: 1308px) {
+    .bttns {
+        display: none;
+    }
+    .nav-link {
+        display: none;
+    }
+    .toggle_btn {
+        display:block;
+    }
+    header {
+        padding: 30px 92px;
+    }
+}
+
+@media (max-width: 850px) {
+    header {
+            padding: 30px 48px;
+        }
+
+}
